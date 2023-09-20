@@ -7,3 +7,4 @@
 requests==2.26.0          # via -r requirements.in
 urllib3==1.26.6           # via -r requirements.in, requests
 
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
